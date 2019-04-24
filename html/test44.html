@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>更换背景颜色</title>
+    <script>
+        window.onload=function () {
+            //获取下拉菜单
+            var menu=document.getElementById("bgselect");
+            //绑定事件
+            menu.onchange=function () {
+                // var bgcolor=menu.value;
+                var bgcolor=menu.options[menu.selectedIndex].value;
+                console.log(bgcolor);
+                if (bgcolor=="")
+                    document.body.style.backgroundColor="white";
+                document.body.style.backgroundColor=bgcolor;
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="box">
+        <select name="" id="bgselect">
+            <option value="">请选择</option>
+            <option value="#f00">红色</option>
+            <option value="#ff0">黄色</option>
+            <option value="#00f">蓝色</option>
+            <option value="#0f0">绿色</option>
+            <option value="#ccc">灰色</option>
+        </select>
+    </div>
+</body>
+</html>
