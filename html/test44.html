@@ -11,9 +11,8 @@
             menu.onchange=function () {
                 // var bgcolor=menu.value;
                 var bgcolor=menu.options[menu.selectedIndex].value;
-                console.log(bgcolor);
                 if (bgcolor=="")
-                    document.body.style.backgroundColor="white";
+                    bgcolor="white";
                 document.body.style.backgroundColor=bgcolor;
             }
         }
