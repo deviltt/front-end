@@ -14,19 +14,19 @@
 </div>
 <script>
     //在此处补充代码，将所有li标签替换掉
-    var wrap=document.getElementById("wrap");
-    var list=wrap.children[0];
+    var wrap = document.getElementById("wrap");
+    var list = wrap.children[0];
     // var fragment=document.createDocumentFragment();
     // var newLi=null;
     // var txt=null;
-    var newUl=document.createElement("ul");
+    var newUl = document.createElement("ul");
     // for (let i = 0; i < 4; i++) {
     //     newLi=document.createElement("li");
     //     txt=document.createTextNode("HTML"+i);
     //     newLi.appendChild(txt);
     //     fragment.appendChild(newLi);
     // }
-    newUl.innerHTML="<li>海贼王</li><li>死神</li><li>火影忍者</li><li>足球小将</li>";
+    newUl.innerHTML = "<li>海贼王</li><li>死神</li><li>火影忍者</li><li>足球小将</li>";
     // newUl.appendChild(fragment);
     wrap.replaceChild(newUl, list);
 </script>
