@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>setInterval()</title>
+    <style type="text/css">
+        div{
+            width:300px;
+            height:300px;
+            border:1px solid #333;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="开始">
+<br><br>
+<div></div>
+<script type="text/javascript">
+    //补充代码
+    var myInput=document.getElementsByTagName("input")[0],
+        innerText="hello",
+        bool=true,
+        myDiv=document.getElementsByTagName("div")[0],
+        myIntervalId=null;
+    myInput.onclick=function(){
+        myIntervalId=setInterval(function(){
+            if(bool){
+                myDiv.innerHTML+=innerText;
+                bool=false;
+                innerText=" hello";
+            }else{
+                myDiv.innerHTML+=innerText;
+            }
+        }, 1000);
+
+        setTimeout(function(){
+            clearInterval(myIntervalId);
+        }, 10000);
+    }
+</script>
+</body>
+</html>
