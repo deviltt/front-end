@@ -20,7 +20,7 @@ Person.prototype={
     }
 };
 
-Object.defineProperties(Person.prototype, "constructor", {
+Object.defineProperty(Person.prototype, "constructor", {
     enumerable:false,
     value:Person
 });
