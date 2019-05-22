@@ -17,5 +17,6 @@ person.sayName();
 
 //在另一个对象的作用域中调用
 var o=new Object();
+//var o={}; //现在都用这种方式
 Person.call(o, "Kristen", 25, "Nurse");
 o.sayName();
