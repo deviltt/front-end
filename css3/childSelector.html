@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		div{
+			height:500px;
+			width: 600px;
+			background: #000;
+			margin: 0 auto;
+			position: relative;
+		}
+		/* p是块级元素，要想在div中垂直居中 */
+		div p{
+			position:absolute;
+			height:400px;
+			width:500px;
+			background: greenyellow;
+			text-align: center;
+			top:50%;
+			left:0;
+			margin-left:10px;
+			margin-top:-200px;
+			line-height: 400px;
+		}
+	</style>
+</head>
+<body>
+<div>
+	<p>你好</p>
+</div>
+<div>
+	<p>你好</p>
+</div>
+</body>
+</html>
