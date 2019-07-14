@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>动态伪类</title>
+	<style type="text/css">
+		input:hover{
+			border: 1px red solid;
+		}
+		.input1:focus{
+			background-color: orange;
+		}
+		.input2:focus{
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+<div>
+	用户名：<input type="text" class="input1" autofocus>    <!-- autofocus自动获取焦点 -->
+	密码：<input type="text" class="input2">
+</div>
+</body>
+</html>
