@@ -49,6 +49,7 @@ a:link, a:visited {
     height: 460px;
     float: left; /*让图片在一条水平线上*/
     background-repeat: no-repeat;
+    display:none;
 }
 
 .slide1 {
@@ -72,6 +73,12 @@ a:link, a:visited {
     top: 50%;
     margin-top: -40px;
     transform: rotate(180deg);
+}
+
+.button:hover{
+    background-color: #333333;
+    opacity: 0.8;
+    filter:alpha(opacity=80); /*兼容IE浏览器*/
 }
 
 .next {
@@ -206,4 +213,8 @@ a:link, a:visited {
 
 .hide{
     display: none;
+}
+
+.slide-active{
+    display: block;
 }
