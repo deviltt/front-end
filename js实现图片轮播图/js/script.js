@@ -29,25 +29,33 @@ addHandler(next, "click", function () {
     if (index == size) {
         index = 0;
     }
-    traverse(pics, dots);
+    traverse();
 });
 
 addHandler(prev, "click", function () {
     index--;
     if (index < 0)
         index = size - 1;
-    traverse(pics, dots);
+    traverse();
 });
 
-function traverse(pics, dots) {
-    for (var i = 0; i < size; i++) {
-        pics[i].style.display="none";
-        dots[i].className="";
-    }
-    dots[index].className="active";
-    pics[index].style.display="block";
+for (let i = 0; i < size; i++) {
+    // dots[i].setAttribute("data-id", i);      //setAttribute可以设置自定义属性
+    addHandler(dots[i], "click", function () {
+        index = i;
+        traverse();
+    })
 }
 
+//执行traverse时，会首先在自己的作用域找pics和dots对象，如果没有，则向上查找，直到找到为止
+function traverse() {
+    for (var i = 0; i < size; i++) {
+        pics[i].style.display = "none";
+        dots[i].className = "";
+    }
+    dots[index].className = "active";
+    pics[index].style.display = "block";
+}
 
 //封装getElementById()
 function byId(id) {
