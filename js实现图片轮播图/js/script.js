@@ -3,7 +3,7 @@ var index = 0,                //当前显示图片的默认值为0
     prev = byId("prev"),  //上一张
     next = byId("next"),  //下一张
     pics = byId("banner").getElementsByTagName("div"),
-    dots=byId("dots").getElementsByTagName("span"),
+    dots = byId("dots").getElementsByTagName("span"),
     size = pics.length;
 
 //点击下一张按钮显示下一张图片
@@ -28,16 +28,25 @@ addHandler(next, "click", function () {
     index++;
     if (index == size) {
         index = 0;
-        dots[size-1].className="";
     }
-    if (index!=0){
-        var temp=index-1;
-        pics[temp].style.display="none";
-        dots[temp].className="";
+    traverse(pics, dots);
+});
+
+addHandler(prev, "click", function () {
+    index--;
+    if (index < 0)
+        index = size - 1;
+    traverse(pics, dots);
+});
+
+function traverse(pics, dots) {
+    for (var i = 0; i < size; i++) {
+        pics[i].style.display="none";
+        dots[i].className="";
     }
     dots[index].className="active";
     pics[index].style.display="block";
-});
+}
 
 
 //封装getElementById()
