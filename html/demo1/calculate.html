@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculate</title>
+    <style>
+        body{
+            background-color: #eeeeee;
+        }
+        #calculate{
+            margin:0 auto
+        }
+    </style>
+</head>
+<body>
+<div id="calculator">
+    <p>
+        <input type="text" class="formerInput" value="1">
+        <span class="sign">+</span>
+        <input type="text" class="laterInput" value="1">
+        <span>=</span>
+        <span class="resultOutput">2</span>
+    </p>
+    <p>
+<!--        <input type="button" value="+" onclick="addHandler();">-->
+<!--        <input type="button" value="-" onclick="subtractHandler();">-->
+<!--        <input type="button" value="*" onclick="multiplyHandler();">-->
+<!--        <input type="button" value="÷" onclick="divideHandler();">-->
+        <input type="button" value="+" class="btn" title="add">
+        <input type="button" value="-" class="btn" title="subtract">
+        <input type="button" value="*" class="btn" title="multiply">
+        <input type="button" value="÷" class="btn" title="divide">
+    </p>
+</div>
+
+<script>
+    var calculator=document.querySelector('#calculator');
+    var formerInput=calculator.querySelector('.formerInput');
+    var laterInput=calculator.querySelector('.laterInput');
+    var sign=calculator.querySelector('.sign');
+    var resultOutput=calculator.querySelector('.resultOutput');
+
+    var btns=calculator.querySelectorAll('.btn');
+
+    // btns[0].onclick=addHandler;
+    // btns[1].onclick=subtractHandler;
+    // btns[2].onclick=multiplyHandler;
+    // btns[3].onclick=divideHandler;
+
+    for (var i=0;i<btns.length;i++){
+        btns[i].onclick=function () {
+            switch (this.title) {
+                case 'add':
+                    addHandler();
+                    break;
+                case 'subtract':
+                    subtractHandler();
+                    break;
+                case 'multiply':
+                    multiplyHandler();
+                    break;
+                case 'divide':
+                    divideHandler();
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+
+    function addHandler() {
+        sign.innerHTML='+';
+        resultOutput.innerHTML= +formerInput.value +  +laterInput.value;
+    }
+
+    function subtractHandler() {
+        sign.innerHTML='-';
+        resultOutput.innerHTML= formerInput.value -  laterInput.value;
+    }
+
+    function multiplyHandler() {
+        sign.innerHTML='*';
+        resultOutput.innerHTML= formerInput.value *  laterInput.value;
+    }
+
+    function divideHandler() {
+        sign.innerHTML='÷';
+        resultOutput.innerHTML= formerInput.value / laterInput.value;
+    }
+</script>
+</body>
+</html>

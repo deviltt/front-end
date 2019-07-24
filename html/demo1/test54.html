@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title></title>
+    <script>
+        window.onload = function () {
+            var score = 60,
+                myMeter1 = document.getElementById("meter1"),
+                mySpan = document.getElementById("span");
+            myMeter1.value = score;
+            var myMeter2 = document.getElementById("meter2");
+            var win = score / myMeter1.max;
+            myMeter2.value = win;
+            mySpan.innerText = win * myMeter1.max + "";
+        }
+    </script>
+</head>
+<body>
+<!-- 在此完成任务 -->
+<p>小明成绩是否在60~80分之间：</p>
+<meter id="meter1" max="100"></meter>
+<p>小明成绩打败<span id="span"></span>%的学生</p>
+<meter id="meter2"></meter>
+</body>
+</html>
