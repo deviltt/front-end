@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../lib/jquery.js"></script>
+</head>
+<body>
+<div title="en">title为en的div元素</div>
+<div title="en-UK">title为en-UK的div元素</div>
+<div title="english">title为english的div元素</div>
+<div title="uk en">title为en uk的div元素</div>
+<div title="uken">title为uken的div元素</div>
+
+<form action="#" id="form1">
+    <select name="test" multiple style="height: 100px;">
+        <option>浙江</option>
+        <option selected>湖南</option>
+        <option selected>天津</option>
+        <option>广州</option>
+        <option>湖北</option>
+    </select>
+
+    <select name="test" style="height: 100px;">
+        <option>浙江</option>
+        <option>湖南</option>
+        <option selected>天津</option>
+        <option>广州</option>
+        <option>湖北</option>
+    </select>
+</form>
+<script type="text/javascript">
+    <!-- 将title属性是以en开头的div标签的背景色变掉 -->
+    // $('div[title^="en"]').css("background", "#bbffaa");
+    <!-- 属性值title中含有en的div标签 -->
+    // $('div[title*="en"]').css("background", "#bbffaa");
+
+    $('div[title~="uk"]').css("background", "#bbffaa");
+
+    console.log($("select :selected").text())
+</script>
+</body>
+</html>
