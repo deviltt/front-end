@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-size: 18px;
+            padding: 60px;
+        }
+
+        #panel {
+            width: 300px;
+            border: 1px solid blue;
+        }
+
+        .head {
+            padding: 5px;
+            background: greenyellow;
+            cursor: pointer;
+        }
+
+        .content {
+            display: none;
+            padding: 10px;
+            text-indent: 2em;
+            border-top: 1px solid blue;
+        }
+
+        .highlight {
+            background: #ff3300;
+        }
+    </style>
+    <script type="text/javascript" src="../lib/jquery-1.3.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            // $("#panel h5.head").toggle(function () {
+            //     $(this).next().toggle();
+            // }, function () {
+            //     $(this).next().toggle();
+            // });
+            $("#panel h5.head").hover(function () {
+                $(this).addClass("highlight");
+                // $(this).next().show();
+                // $(this).next().fadeIn();
+                $(this).next().slideDown();
+            }, function () {
+                $(this).removeClass("highlight");
+                // $(this).next().hide();
+                // $(this).next().fadeOut();
+                $(this).next().slideUp();
+            })
+        })
+    </script>
+</head>
+<body>
+<div id="panel">
+    <h5 class="head">什么是jQuery?</h5>
+    <div class="content">
+        jQuery是继Prototype之后又一个优秀的JavaScript库，它是一个由 John Resig
+        创建于2006年1月的开源项目。jQuery凭借简洁的语法和跨平台的兼容性，极大地简化了JavaScript开发人员遍历HTML文档、操作DOM、处理事件、执行动画和开发Ajax。它独特而又优雅的代码风格改变了JavaScript程序员的设计思路和编写程序的方式。
+    </div>
+</div>
+</body>
+</html>
