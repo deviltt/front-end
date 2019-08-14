@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		
+		body {
+			font-size: 16px;
+		}
+		
+		.msg {
+			width: 300px;
+			height: 200px;
+			border: 1px solid black;
+			padding: 10px;
+			margin: 10px 10px;
+		}
+		
+		.msg_caption {
+			margin: 0 auto;
+		}
+		
+		.msg_caption span {
+			background: #abcdef;
+			color: white;
+		}
+		
+		#comment {
+			display: block;
+			margin: 5px auto;
+			padding: 5px;
+		}
+	</style>
+	<script src="../../lib/jquery-1.3.1.js" type="text/javascript"></script>
+	<script>
+        $(function () {
+            //获取textarea标签
+            var $textarea = $("#comment");
+            $(".bigger").click(function () {
+                if ($textarea.height() < 500) {
+                    $textarea.height($textarea.height() + 50);
+                }
+            });
+            $(".bigger").click(function () {
+                if ($textarea.height() < 500) {
+                    $textarea.animate({height: "+=50px"}, 400);
+                }
+            });
+            $(".smaller").click(function () {
+                if ($textarea.height() > 50) {
+                    $textarea.height($textarea.height() - 50);
+                }
+            })
+            // $(".bigger").click(function () {
+            //     $textarea.animate({scrollTop: "-=50"}, 400);
+            // })
+        })
+	</script>
+</head>
+<body>
+<form action="#">
+	<div class="msg">
+		<div class="msg_caption">
+			<span class="bigger">放大</span>
+			<span class="smaller">缩小</span>
+		</div>
+		<div>
+			<textarea id="comment" cols="30" rows="10">合同contract指 双方或多方当事人（自然人或法人）关于建立、变更 、消灭民事法律关系的协议。此类合同是产生债的一种最为普遍和重要的根据，故又称债权合同。《中华人民共和国经济合同法》所规定的经济合同，属于债权合同的范围。合同有时也泛指发生一定权利、义务的协议。又称契约。如买卖合同、师徒合同、劳动合同以及工厂与车间订立的承包合同等。</textarea>
+		</div>
+	</div>
+</form>
+</body>
+</html>
