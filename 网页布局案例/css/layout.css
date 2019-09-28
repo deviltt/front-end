@@ -1,0 +1,208 @@
+/*初始化*/
+*{
+    padding:0;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #F6F2F1;
+}
+.header img{
+    width: 300px;
+    height: 85px;
+    padding-top: 8px;
+    padding-left: 100px;
+}
+.header .logo{
+    float: left;
+}
+.header .nav{
+    float: right;
+}
+
+.header .nav ul{
+    padding-right: 100px;
+}
+
+.header .nav ul li{
+    list-style: none;   /*没有前面的小圆点*/
+    display: inline;    /*行内元素*/
+    padding-left: 40px;
+    line-height:100px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #7d7d7d;
+}
+.main .top{
+    width: 100%;
+    height: 600px;
+}
+.main .top img{
+    width: 100%;
+    height: 600px;
+}
+/*遮罩层*/
+.main .top_layer{
+    position: absolute;
+    top: 100px; /*头部100px*/
+    left: 0;
+    background-color: #000;
+    width:100%;
+    height: 600px;
+    opacity: .4;
+}
+.main .topLayer-top{
+    width:500px;
+    height: 300px;
+    position: absolute;
+    top: 400px;
+    margin-top: -150px;
+    z-index: 2;     /*层级显示*/
+    left: 50%;
+    margin-left: -250px;
+}
+.main .topLayer-top .word{
+    padding-top: 100px;
+    color:#fff;
+    font-size:45px;
+    font-weight:bolder;
+    text-align: center;    /*字体居中*/
+    font-family: "微软雅黑";
+}
+
+.main .topLayer-top button {
+    width: 200px;
+    height: 60px;
+    margin-top: 50px;
+    color: #fff;
+    background-color: #f5704f;
+    font-family: "微软雅黑";
+    text-align: center;
+    font-weight: bolder;
+    font-size: 14px;
+    border-radius: 8px; /*居中*/
+    margin-left: 150px; /*居中*/
+}
+
+.main .middle{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/*.main .middle .m-top{*/
+/*    width: 100%;*/
+/*    height: 160px;*/
+/*}*/
+
+.main .middle .m-top .common{
+    float: left;    /*元素一行显示*/
+    width: 33.3%;   /*宽度平均分配*/
+    padding-top: 50px;
+    text-align: center; /*使得图片都在自己的块内居中显示*/
+}
+.main .middle .m-top .common img{
+    width: 100px;
+    height: 100px;
+}
+.main .middle .m-top .common .comm{
+    font-size: 20px;
+    color: #7d7c7f;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+.main .middle .m-middle{
+    font-size: 22px;
+    color: #e19796;
+    font-weight: bolder;
+    padding-top: 50px;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.clear{
+    clear: both;
+}
+.main .middle .m-bottom .m-com{
+    float: left;
+    padding:10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.main .middle .m-bottom .m-com img{
+    width:310px;
+    height: 260px;
+}
+.main .middle .m-bottom .m-com .desc1{
+    color: #7d7d7f;
+    padding-top: 20px;
+}
+.main .middle .m-bottom .m-com .desc2{
+    color: #bdbdbc;
+    padding-top: 10px;
+}
+.main .bottom{
+    background-color: #f9f9f9;
+}
+.main .bottom .bottom-content{
+    width: 1000px;
+    margin:0 auto;
+}
+.main .bottom .bottom-content .title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #7d7c7f;
+    font-family: "微软雅黑";
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main .bottom .bottom-content .picContent dl{
+    float: left;
+    width: 475px;
+    margin: 10px 12px;
+}
+.main .bottom .bottom-content .picContent dl img{
+    width: 470px;
+    height: 460px;
+}
+.main .bottom .bottom-content .picContent dl .word{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #7d7c7f;
+    padding-bottom: 50px;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #292c35;
+    line-height: 100px;     /*使文字上下居中*/
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: "微软雅黑";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
