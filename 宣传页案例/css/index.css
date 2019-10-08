@@ -1,0 +1,60 @@
+.header {
+    background-color: #f7f7f7;
+}
+
+.header__wrap {
+    height: 80px;
+    width: 1200px;
+    margin: 0 auto; /*使得div水平居中*/
+    position: relative;
+}
+
+.header__logo {
+    width: 150px;
+    text-indent: 50px;
+    height: 40px;
+    line-height: 40px;
+    background: url("../img/logo.png") left center no-repeat;
+    font-size: 20px;
+    color: #07111b;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    margin-top: -20px;
+}
+
+.header__nav {
+    position: absolute;
+    right: 20px;
+    height: 40px;
+    top: 50%;
+    margin-top: -20px;
+}
+
+.header__nav-item {
+    color: #292f35;
+    font-size: 14px;
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    float: left;
+    position: relative;
+
+    width: 30px;
+    text-align: center;
+    /*	margin: 0;*/
+    padding-left: 40px;
+}
+
+.header__nav-item_status_active {
+    color: #f01400;
+}
+
+.header__nav-item_custom_button {
+    background-color: black;
+    color: #F4F4F5;
+    width: 90px;
+    padding: 0;
+    margin-left: 40px;
+    border-radius: 3px;
+}
