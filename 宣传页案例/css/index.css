@@ -165,7 +165,8 @@ BEM设计模式
     bottom: -345px;
     z-index: 2;
 }
-.screen-2__point{
+
+.screen-2__point {
     width: 108px;
     height: 22px;
     padding-right: 112px;
@@ -173,24 +174,203 @@ BEM设计模式
     line-height: 22px;
     color: #4d555d;
     background: url("../img/icon-point-right.png") no-repeat center right;
+    position: absolute;
 }
-.screen-2__point__custom_right {
+
+.screen-2__point_custom_right {
     padding: 0 0 0 112px;
-    background-image: url("../img/icon-point-left.png");
+    background: url("../img/icon-point-left.png") no-repeat center left;
 }
-.screen-2__
+
+.screen-2__point_i_1 {
+    top: 150px;
+    left: -164px;
+}
+
+.screen-2__point_i_2 {
+    right: 130px;
+    top: 30px;
+}
+
+.screen-2__point_i_3 {
+    right: 30px;
+    top: 330px;
+}
+
 /**
 第三屏
  */
 .screen-3 {
     height: 800px;
-    background-color: #2aabd2;
+    position: relative;
+    overflow: hidden;
+    background: url("../img/bg-screen-3.png") no-repeat center;
+    background-size: cover;
+}
+
+.screen-3__wrap {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
     position: relative;
 }
 
+.screen-3__heading {
+    font-size: 46px;
+    line-height: 46px; /*文字居中*/
+    color: #FFFFFF;
+    text-align: left;
+    padding-top: 94px;
+}
 
+.screen-3__subheading {
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: left;
+    padding-top: 25px;
+    line-height: 28px;
+}
 
+.screen-3__phone {
+    width: 729px;
+    height: 873px;
+    background: url("../img/screen-3-phone.png") no-repeat center top;
+    position: absolute;
+    right: 0;
+    top: 195px;
+    z-index: 2;
+}
 
+.screen-3__features {
+    position: absolute;
+    top: 395px;
+    left: 0;
+    width: 320px;
+    height: 280px;
+}
+
+.screen-3__features__item {
+    width: 138px;
+    height: 118px;
+    border: 1px solid #cb7173;
+    margin: 0 20px 20px 0;
+    float: left;
+    border-radius: 3px;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.screen-3__features__item__number {
+    height: 36px;
+    font-size: 36px;
+    line-height: 36px;
+    padding: 28px 0 8px;
+}
+
+.screen-3__features__item__desc {
+    height: 14px;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+/**
+第四屏
+ */
+.screen-4 {
+    height: 800px;
+    background-color: #FFFFFF;
+    position: relative;
+    overflow: hidden;
+}
+
+.screen-4__wrap {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.screen-4__heading {
+    color: #f01400;
+    text-align: center;
+    padding-top: 135px;
+    line-height: 46px;
+    font-size: 46px;
+}
+
+.screen-4__subheading {
+    font-size: 14px;
+    color: #464a4f;
+    text-align: center;
+    line-height: 28px;
+    padding-top: 29px;
+}
+
+.screen-4__type {
+    width: 1260px;
+    height: 270px;
+    position: absolute;
+    top: 306px;
+    margin-left: 30px;
+}
+
+.screen-4__type__item {
+    width: 220px;
+    margin-right: 90px;
+    height: 270px;
+    float: left;
+    position: relative;
+    text-align: center;
+    background-size: cover;
+}
+
+.screen-4__type__item__color {
+    width: 100%;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #2c3238;
+    position: absolute;
+    bottom: -44px;
+}
+
+.screen-4__type__item_i_1 {
+    background: url("../img/phone-1.png") no-repeat left top;
+}
+
+.screen-4__type__item_i_2 {
+    background: url("../img/phone-2.png") no-repeat left top;
+}
+
+.screen-4__type__item_i_3 {
+    background: url("../img/phone-3.png") no-repeat left top;
+}
+
+.screen-4__type__item_i_4 {
+    background: url("../img/phone-4.png") no-repeat left top;
+}
+
+.screen-4__type__item__storage {
+    width: 100%;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    color: #a4a9ae;
+    position: absolute;
+    bottom: -66px;
+}
+
+/**
+第五屏
+ */
+.screen-5 {
+    height: 800px;
+    background-color: #141911;
+    position: relative;
+    overflow: hidden;
+}
 
 
 
