@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<script src="../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+	<p>Area is equal to: {{area}}</p>
+	<button @click="length+=1">Add Length</button>
+	<button @click="width+=1">Add Width</button>
+	<button @click="change">交换值</button>
+</div>
+
+<script>
+    var app = new Vue({
+        el: "#app",
+        data: {
+            width: 3,
+            length: 5
+        },
+        computed: {
+            area: function () {
+                return this.width * this.length
+            }
+        },
+        methods: {
+            change: function () {
+                console.log("change被触发了");
+                var temp = this.length;
+                this.length = this.width;
+                this.width = temp;
+            }
+        },
+        watch: {
+            length: function (newVal, oldVal) {
+                console.log('the old value of length was: ' + oldVal + '\nthe new value of length is: ' + newVal)
+            }
+        },
+        beforeUpdate: function () {
+            console.log("实例数据发生改变了")
+        }
+    })
+</script>
+</body>
+</html>

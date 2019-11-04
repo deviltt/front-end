@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a88e5d7-6227-47a4-8ebd-93abf9f4d0c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/jay.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/music.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/assets/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/assets/images/product-fullsize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/chapter2/format-price.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/chapter2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/chapter2/life-cycle-hooks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/chapter2/product-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/chapter3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/js/vue.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/宣传页案例/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/宣传页案例/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/宣传页案例/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/宣传页案例/index.html" afterDir="false" />
@@ -15,38 +26,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/宣传页案例/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="85" column="10" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/实战源码/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="69" selection-start-line="69" selection-end-line="86" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/宣传页案例/css/index.css">
+        <entry file="file://$PROJECT_DIR$/vue/chapter2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="314" column="10" lean-forward="true" selection-start-line="314" selection-start-column="10" selection-end-line="314" selection-end-column="10" />
+            <state relative-caret-position="126">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataDestructor/1-1.js">
+        <entry file="file://$PROJECT_DIR$/vue/chapter2/format-price.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="324">
+              <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/assets/css/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -73,13 +75,25 @@
         <option value="$PROJECT_DIR$/test/a.html" />
         <option value="$PROJECT_DIR$/宣传页案例/index.html" />
         <option value="$PROJECT_DIR$/宣传页案例/css/index.css" />
+        <option value="$PROJECT_DIR$/test/b.html" />
+        <option value="$PROJECT_DIR$/test/music.html" />
+        <option value="$PROJECT_DIR$/vue/chapter2/js/vue.js" />
+        <option value="$PROJECT_DIR$/vue/chapter2/life-cycle-hooks.js" />
+        <option value="$USER_HOME$/Desktop/VuejsInActionCode-master/chapter-02/index.html" />
+        <option value="$PROJECT_DIR$/vue/chapter2/assets/css/app.css" />
+        <option value="$PROJECT_DIR$/vue/chapter2/js/format-price.js" />
+        <option value="$PROJECT_DIR$/vue/chapter2/product-data.js" />
+        <option value="$PROJECT_DIR$/vue/chapter3/index.html" />
+        <option value="$PROJECT_DIR$/vue/assets/css/app.css" />
+        <option value="$PROJECT_DIR$/vue/chapter2/format-price.js" />
+        <option value="$PROJECT_DIR$/vue/chapter2/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1045" />
-    <option name="y" value="5" />
-    <option name="width" value="868" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="870" />
     <option name="height" value="980" />
   </component>
   <component name="ProjectView">
@@ -87,6 +101,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,23 +109,46 @@
               <item name="front-end" type="b2602c69:ProjectViewProjectNode" />
               <item name="front-end" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="front-end" type="b2602c69:ProjectViewProjectNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="front-end" type="b2602c69:ProjectViewProjectNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="front-end" type="b2602c69:ProjectViewProjectNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/宣传页案例/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vue/chapter2/assets/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\front\front-end\vue\chapter2\assets\images" />
+      <recent name="D:\front\front-end\lib" />
+      <recent name="D:\front\front-end\test" />
       <recent name="D:\front\front-end\宣传页案例\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\front\front-end\vue" />
+      <recent name="D:\front\front-end\vue\chapter2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -125,25 +163,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
-    <configuration name="a.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/front-end/test/a.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="b.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/front-end/test/b.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/front-end/宣传页案例/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/front-end/js实现图片轮播图/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/front-end/vue/chapter3/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="1-1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="1-1.js" working-dir="$PROJECT_DIR$/dataDestructor">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/front-end/vue/chapter2/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="music.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/front-end/test/music.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.a.html" />
-        <item itemvalue="Node.js.1-1.js" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="JavaScript Debug.music.html" />
+        <item itemvalue="JavaScript Debug.b.html" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -169,30 +211,35 @@
       <workItem from="1571800624550" duration="75000" />
       <workItem from="1572156834579" duration="1662000" />
       <workItem from="1572222476210" duration="121000" />
-      <workItem from="1572269147331" duration="5713000" />
+      <workItem from="1572269147331" duration="6070000" />
+      <workItem from="1572357662152" duration="5030000" />
+      <workItem from="1572524752631" duration="5232000" />
+      <workItem from="1572567345665" duration="78000" />
+      <workItem from="1572686283670" duration="10416000" />
+      <workItem from="1572865722334" duration="5765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27588000" />
+    <option name="totallyTimeSpent" value="54466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.41793314" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16116248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.21671388" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.18413597" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.15580736" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.36260623" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33002833" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -286,6 +333,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/宣传页案例/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1566">
+          <caret line="87" column="22" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/宣传页案例/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7128">
+          <caret line="396" column="1" selection-start-line="396" selection-start-column="1" selection-end-line="396" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/b.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/实战源码/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="95" column="14" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dataDestructor/1-1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -293,24 +374,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/实战源码/index.html">
+    <entry file="file://$PROJECT_DIR$/test/music.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="69" selection-start-line="69" selection-end-line="86" selection-end-column="22" />
+        <state relative-caret-position="360">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/宣传页案例/index.html">
+    <entry file="file://$PROJECT_DIR$/vue/js/vue.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="85" column="10" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
+        <state relative-caret-position="216">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/宣传页案例/css/index.css">
+    <entry file="file://$USER_HOME$/Desktop/VuejsInActionCode-master/chapter-02/product-data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="314" column="10" lean-forward="true" selection-start-line="314" selection-start-column="10" selection-end-line="314" selection-end-column="10" />
+        <state relative-caret-position="198">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/chapter2/product-data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/VuejsInActionCode-master/chapter-02/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/VuejsInActionCode-master/chapter-02/v-text-binding.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/VuejsInActionCode-master/chapter-02/product-markup-cont.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/VuejsInActionCode-master/chapter-02/product-markup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/VuejsInActionCode-master/chapter-02/data-binding.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/VuejsInActionCode-master/chapter-02/format-price.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/chapter2/life-cycle-hooks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/chapter3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/assets/images/product-fullsize.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/VuejsInActionCode-master/chapter-03/v-if-and-v-else.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/assets/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/VuejsInActionCode-master/chapter-03/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/chapter2/format-price.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/chapter2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="40" />
         </state>
       </provider>
     </entry>

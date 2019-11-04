@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Music</title>
+	<style>
+		@keyframes fade {
+			from {
+				opacity: 1.0;
+			}
+			50% {
+				opacity: 0.4;
+			}
+			to {
+				opacity: 1.0;
+			}
+		}
+		.shine{
+			background-color: green;
+			color: #fff;
+			padding: 10px;
+			font-size: 15px;
+			height: 60px;
+			animation: fade 600ms infinite;
+			-webkit-animation: fade 600ms infinite;
+		}
+	</style>
+</head>
+<body>
+<audio id="vd" src="./jay.mp3"></audio>
+<button type="button" id="btn">播放</button>
+
+<div class="shine" style="width:100px;height: 100px; padding: 10px;line-height: 100px; text-align: center">你好</div>
+
+<script src="../lib/jquery.js"></script>
+<script>
+    // function toggleSound() {
+    //
+    //     if (music.paused) { //判读是否播放  
+    //         music.paused = false;
+    //         music.play(); //没有就播放 
+    //     }
+    // }
+    $(function () {
+        $("#btn").bind("click", function () {
+            var music = document.getElementById("vd");//获取ID
+
+            music.play();
+
+            music.muted = false;
+        })
+    });
+    // var music = document.getElementById("vd");//获取ID  
+    // function start() {
+    //     // $("#vd").attr("muted", true);
+    //     music.play(); //没有就播放 
+    //     console.log("tt")
+    // }
+
+    //
+    // start();
+    // setInterval("toggleSound()", 1000);
+</script>
+</body>
+</html>
