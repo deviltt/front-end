@@ -1,0 +1,63 @@
+<head>
+	<title>Vue.js Pet Depot</title>
+	<script src="../js/vue.js"></script>
+	<link rel="stylesheet" type="text/css" href="../assets/css/app.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	      crossorigin="anonymous">
+	<meta charset="UTF-8">
+</head> 
+<body>
+<div id="app">
+	<div>{{siteName}}</div>
+	<div>
+		<strong>First Name:</strong>
+		<input type="text" v-model.lazy.trim="order.firstName">
+		<pre>{{order.firstName}}</pre>
+	</div>
+<!--	<div>FirstName: {{order.firstName}}</div>-->
+
+<!--	<div>-->
+<!--		<strong>select</strong>-->
+<!--		<select v-model="order.state">-->
+<!--			<option disabled>0</option>-->
+<!--			<option>1</option>-->
+<!--			<option>2</option>-->
+<!--			<option>3</option>-->
+<!--			<option>4</option>-->
+<!--		</select>-->
+<!--	</div>-->
+<!--	<div>{{order.state}}</div>-->
+	
+	<div>
+		<input type="checkbox" v-model="order.check">
+		<div>{{order.check}}</div>
+	</div>
+	
+	<div>
+		<input type="checkbox" v-model="order.check" :true-value="order.sendGift" :false-value="order.dontSendGift">
+	</div>
+	
+	<div>
+		<input type="radio" v-model="order.radio" :value="order.home">home
+		<input type="radio" v-model="order.radio" :value="order.business">business
+		<div>{{order.radio}}</div>
+	</div>
+	
+	<div>
+		<select v-model="order.country">
+			<option v-for="(state, key) in states" :value="state">{{key}}</option>
+		</select>
+		<div>{{order.country}}</div>
+	</div>
+	
+	<div>
+		<input type="text" v-model.number="order.zip">
+		<div>{{typeof(order.zip)}}</div>
+	</div>
+</div>
+</body>
+<script src="index.js"></script>
+</body>
+
+</html>

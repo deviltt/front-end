@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>background-image</title>
+	<style type="text/css">
+		/*此处写代码*/
+		.bg {
+			width: 300px;
+			height: 305px;
+			padding: 5px;
+			background-color: #F8FAFC;
+			background-image: url("http://climg.mukewang.com/582c3b780001a95103000090.jpg"),
+			url("http://climg.mukewang.com/582c3b6d0001197603000090.jpg"),
+			url("http://climg.mukewang.com/582c3b61000122dd03000090.jpg");
+			background-origin: content-box;
+			background-repeat: no-repeat;
+			background-position: 0 0, 0 100px, 0 200px;
+		}
+		
+		.inline-table {
+			display: inline-table;
+			margin-left: 10px;
+			width: 128px;
+			border:1px solid #cad5eb;
+		}
+		.inline-table>p{
+			display: table-cell;
+		}
+		.width-father{
+			width: 100px;
+			height: 200px;
+		}
+	</style>
+</head>
+<body>
+<!-- 此处写代码 -->
+<div class="bg">
+
+</div>
+和文字平起平坐的表格: <div class="inline-table">
+	<p>1</p>
+	<p>2</p>
+</div>
+
+<div class="width-father">
+	<div></div>
+</div>
+</body>
+</html>
