@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+		.square {
+			width: 100px;
+			height: 100px;
+			float: left;
+			margin-left: 20px;
+		}
+		
+		.square:first-child {
+			background: -webkit-linear-gradient(0, red, yellow);
+			background: -moz-linear-gradient(0, red, yellow);
+			background: -o-linear-gradient(0, red, yellow);
+			background: linear-gradient(0, red, yellow);
+		}
+		
+		.square:nth-child(2) {
+			background: linear-gradient(90deg, yellow, red);
+		}
+		
+		.square:last-child {
+			background: linear-gradient(135deg, red, yellow);
+		}
+	</style>
+</head>
+<body>
+<div class="square">
+
+</div>
+<div class="square">
+
+</div>
+<div class="square">
+
+</div>
+</body>
+</html>
