@@ -2,19 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a88e5d7-6227-47a4-8ebd-93abf9f4d0c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/proJquery/chapter9/carnation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proJquery/chapter9/lily.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proJquery/chapter9/listing13.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proJquery/chapter9/listing15.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proJquery/chapter9/listing16.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proJquery/chapter9/listing18.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proJquery/chapter9/listing23.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proJquery/chapter9/listing3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proJquery/chapter9/listing4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proJquery/chapter9/listing5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proJquery/chapter9/listing7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proJquery/chapter9/listing8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proJquery/chapter9/listing9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proJquery/chapter10/Listing 01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proJquery/chapter10/Listing 02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proJquery/chapter10/Listing 03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proJquery/chapter10/Listing 04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proJquery/chapter10/Listing 05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proJquery/chapter10/Listing 06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proJquery/chapter10/Listing 09.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proJquery/chapter10/Listing 10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proJquery/chapter10/aster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proJquery/chapter10/border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proJquery/chapter10/carnation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proJquery/chapter10/daffodil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proJquery/chapter10/flowericon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proJquery/chapter10/lily.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proJquery/chapter10/orchid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proJquery/chapter10/peony.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proJquery/chapter10/primula.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proJquery/chapter10/rose.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proJquery/chapter10/snowdrop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proJquery/chapter10/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,91 +33,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proJquery/chapter9/listing4.html">
+        <entry file="file://$PROJECT_DIR$/proJquery/chapter10/Listing 01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="52" selection-start-line="52" selection-end-line="65" selection-end-column="82" />
+            <state relative-caret-position="522">
+              <caret line="32" column="63" lean-forward="true" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proJquery/chapter9/listing5.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proJquery/chapter9/listing7.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="58" column="37" lean-forward="true" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proJquery/chapter9/listing8.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="63" column="54" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proJquery/chapter9/listing9.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proJquery/chapter9/listing13.html">
+        <entry file="file://$PROJECT_DIR$/proJquery/chapter10/Listing 05.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+              <caret line="23" column="64" lean-forward="true" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proJquery/chapter9/listing15.html">
+        <entry file="file://$PROJECT_DIR$/proJquery/chapter10/Listing 06.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+            <state relative-caret-position="288">
+              <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proJquery/chapter9/listing16.html">
+        <entry file="file://$PROJECT_DIR$/proJquery/chapter10/Listing 08.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="61" column="49" lean-forward="true" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+            <state relative-caret-position="126">
+              <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proJquery/chapter9/listing18.html">
+        <entry file="file://$PROJECT_DIR$/proJquery/chapter10/Listing 09.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="52" column="52" lean-forward="true" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+            <state relative-caret-position="225">
+              <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/proJquery/chapter9/listing23.html">
+        <entry file="file://$PROJECT_DIR$/proJquery/chapter10/Listing 10.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+            <state relative-caret-position="216">
+              <caret line="12" column="61" lean-forward="true" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proJquery/chapter10/Listing 02.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="53" column="10" lean-forward="true" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proJquery/chapter10/Listing 03.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proJquery/chapter10/Listing 04.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proJquery/chapter10/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -132,16 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vue/assets/css/app.css" />
-        <option value="$PROJECT_DIR$/vue/chapter2/format-price.js" />
-        <option value="$PROJECT_DIR$/vue/chapter2/index.html" />
-        <option value="$PROJECT_DIR$/vue/chapter4/index.js" />
-        <option value="$PROJECT_DIR$/vue/chapter4/index.html" />
-        <option value="$PROJECT_DIR$/html/2-4.html" />
-        <option value="$PROJECT_DIR$/html/test/2-7.html" />
-        <option value="$PROJECT_DIR$/html/background/2-11.html" />
-        <option value="$PROJECT_DIR$/html/background/2-15.html" />
-        <option value="$PROJECT_DIR$/cssWorld/3-17.html" />
         <option value="$PROJECT_DIR$/cssWorld/chapter3/3-17.html" />
         <option value="$PROJECT_DIR$/html/background/2-18.html" />
         <option value="$PROJECT_DIR$/html/background/3-2.html" />
@@ -183,10 +180,20 @@
         <option value="$PROJECT_DIR$/proJquery/chapter9/listing16.html" />
         <option value="$PROJECT_DIR$/proJquery/chapter9/listing18.html" />
         <option value="$PROJECT_DIR$/proJquery/chapter9/listing23.html" />
+        <option value="$PROJECT_DIR$/proJquery/chapter10/styles.css" />
+        <option value="$PROJECT_DIR$/proJquery/chapter10/Listing 01.html" />
+        <option value="$PROJECT_DIR$/proJquery/chapter10/Listing 02.html" />
+        <option value="$PROJECT_DIR$/proJquery/chapter10/Listing 03.html" />
+        <option value="$PROJECT_DIR$/proJquery/chapter10/Listing 04.html" />
+        <option value="$PROJECT_DIR$/proJquery/chapter10/Listing 05.html" />
+        <option value="$PROJECT_DIR$/proJquery/chapter10/Listing 06.html" />
+        <option value="$PROJECT_DIR$/proJquery/chapter10/Listing 08.html" />
+        <option value="$PROJECT_DIR$/proJquery/chapter10/Listing 09.html" />
+        <option value="$PROJECT_DIR$/proJquery/chapter10/Listing 10.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="400" />
     <option name="y" value="25" />
     <option name="width" value="1260" />
@@ -218,7 +225,7 @@
               <item name="front-end" type="b2602c69:ProjectViewProjectNode" />
               <item name="front-end" type="462c0819:PsiDirectoryNode" />
               <item name="proJquery" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter9" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter10" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -231,23 +238,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/proJquery/chapter9" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/proJquery/chapter10" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\front\front-end\proJquery\chapter9" />
       <recent name="D:\front\front-end\webWorker\worker" />
       <recent name="D:\front\front-end\webWorker\shareWorker" />
       <recent name="D:\front\front-end\cssWorld\chapter3" />
       <recent name="D:\front\front-end\html\background" />
-      <recent name="D:\front\front-end\html" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\front\front-end\proJquery\chapter10" />
       <recent name="D:\front\front-end\proJquery\chapter9" />
       <recent name="D:\front\front-end\proJquery" />
       <recent name="D:\front\front-end\相册" />
       <recent name="D:\front\front-end\drag" />
-      <recent name="D:\front\front-end\drag\layui" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -262,29 +269,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.listing23.html">
-    <configuration name="listing13.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/front-end/proJquery/chapter9/listing13.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.Listing 10.html">
+    <configuration name="Listing 05.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/front-end/proJquery/chapter10/Listing 05.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="listing15.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/front-end/proJquery/chapter9/listing15.html" useBuiltInWebServerPort="true">
+    <configuration name="Listing 06.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/front-end/proJquery/chapter10/Listing 06.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="listing16.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/front-end/proJquery/chapter9/listing16.html" useBuiltInWebServerPort="true">
+    <configuration name="Listing 08.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/front-end/proJquery/chapter10/Listing 08.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="listing18.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/front-end/proJquery/chapter9/listing18.html" useBuiltInWebServerPort="true">
+    <configuration name="Listing 09.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/front-end/proJquery/chapter10/Listing 09.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="listing23.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/front-end/proJquery/chapter9/listing23.html" useBuiltInWebServerPort="true">
+    <configuration name="Listing 10.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/front-end/proJquery/chapter10/Listing 10.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.listing23.html" />
-        <item itemvalue="JavaScript Debug.listing18.html" />
-        <item itemvalue="JavaScript Debug.listing16.html" />
-        <item itemvalue="JavaScript Debug.listing15.html" />
-        <item itemvalue="JavaScript Debug.listing13.html" />
+        <item itemvalue="JavaScript Debug.Listing 10.html" />
+        <item itemvalue="JavaScript Debug.Listing 09.html" />
+        <item itemvalue="JavaScript Debug.Listing 08.html" />
+        <item itemvalue="JavaScript Debug.Listing 06.html" />
+        <item itemvalue="JavaScript Debug.Listing 05.html" />
       </list>
     </recent_temporary>
   </component>
@@ -330,15 +337,15 @@
       <workItem from="1574905788011" duration="256000" />
       <workItem from="1574918751563" duration="3693000" />
       <workItem from="1575333615943" duration="126000" />
-      <workItem from="1575787095796" duration="6961000" />
+      <workItem from="1575787095796" duration="11405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115110000" />
+    <option name="totallyTimeSpent" value="119554000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17239101" />
@@ -404,86 +411,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cssWorld/chapter3/3-17.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/background/2-18.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/background/3-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/background/3-7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/background/3-14.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cssWorld/chapter3/3-24.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cssWorld/chapter3/3-25.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cssWorld/chapter3/3-26.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cssWorld/chapter3/3-27.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/transition/3-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="36" column="60" lean-forward="true" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webWorker/worker/calculate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webWorker/worker/calculate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -636,13 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proJquery/chapter9/listing1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proJquery/chapter9/listing2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -729,8 +649,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/proJquery/chapter9/listing23.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+        <state relative-caret-position="225">
+          <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proJquery/chapter9/listing1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="48" column="35" lean-forward="true" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proJquery/chapter10/listing1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proJquery/chapter10/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proJquery/chapter10/Listing 02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="53" column="10" lean-forward="true" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proJquery/chapter10/Listing 03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proJquery/chapter10/Listing 04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proJquery/chapter10/Listing 01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="32" column="63" lean-forward="true" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proJquery/chapter10/Listing 05.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="23" column="64" lean-forward="true" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proJquery/chapter10/Listing 06.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proJquery/chapter10/Listing 08.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proJquery/chapter10/Listing 09.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proJquery/chapter10/Listing 10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="61" lean-forward="true" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
         </state>
       </provider>
     </entry>
