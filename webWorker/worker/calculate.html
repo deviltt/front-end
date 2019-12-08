@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<script>
+    var worker = new Worker("calculate.js");
+    worker.onmessage = function (e) {
+        alert("和为 : " + e.data);
+    };
+
+    function calculate() {
+        var num = 1000000;
+        worker.postMessage(num);
+    }
+
+    calculate();
+</script>
+</body>
+</html>
