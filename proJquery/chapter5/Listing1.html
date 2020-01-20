@@ -6,17 +6,31 @@
 	<script src="../jquery-2.0.2.js" type="text/javascript"></script>
 	<script>
         $(function () {
-            $("img:odd").mouseenter(function () {
-                $(this).css("opacity", .5);
-            }).mouseout(function () {
-                $(this).css("opacity", 1);
-            });
+            // $("img:odd").mouseenter(function () {
+            //     $(this).css("opacity", .5);
+            // }).mouseout(function () {
+            //     $(this).css("opacity", 1);
+            // });
+	        //
+	        // $("img").each(function (index, elem) {
+		    //     console.log(elem.tagName+" "+elem.src);
+            // }) ;
+	        //
+	        // console.log($("label").add("input[name!='rose']"));
 	        
-	        $("img").each(function (index, elem) {
-		        console.log(elem.tagName+" "+elem.src);
-            }) ;
+	        // $("div.dcell").map(function (index, elem) {
+		    //     return elem.getElementsByTagName("img")[0];
+            // }).css("border", "thick solid red");
+	        //
+	        // $("div.dcell").map(function (index, elem) {
+		    //     return $(elem).children()[1];
+            // }).css("border", "thick solid blue")
 	        
-	        console.log($("label").add("input[name!='rose']"));
+	        // $("label").first().css("border", "thick solid blue").end().css("font-size", "1.5em")
+
+            // $("label").slice(2).first().css("border", "thick solid blue").end().css("font-size", "1.5em")
+	        
+	        $("div.dcell").children("img").addBack().css("border", "thick solid red")
         })
 	</script>
 </head>
