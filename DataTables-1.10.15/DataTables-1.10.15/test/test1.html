@@ -31,11 +31,31 @@
 					"5",
 					"6"
 				]).draw(false);
+
+				console.log($example.data());
+				
+                $example.data().each(function (d) {
+                    
+                    // d.counter++;
+                    console.log(d);
+                    // console.log(d.counter)
+                });
+                
+                var tr = $('#example tbody tr:eq(0)');
+
+                tr.find('td:eq(0)').html( 'Updated' );
+                $example
+                    .rows( tr )
+                    .invalidate()
+                    .draw();
             });
+			
+			// $example.rows().invalidate();
 			//
 			// $("#add").click();
 			// console.log($example.columns())
-			$example.ajax.reload(null,true);
+
+			// $example.ajax.reload(null,true);
         })
 	</script>
 
