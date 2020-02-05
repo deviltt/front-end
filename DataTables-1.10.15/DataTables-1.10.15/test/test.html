@@ -60,7 +60,7 @@
             // });
             // console.log($table.columns.data)
             $.extend(true, $.fn.dataTable.defaults, {
-                searching: false,
+                searching: true,
                 ordering: true
             });
 
@@ -123,14 +123,48 @@
                 console.log("表格当前页:" + $example.page());
             });
 
-            $("#btn1").on("click", function () {
+            /**
+             * 第二个参数为选择器,限定操作的范围
+             */
+            $("#example").on("click", "tbody td",function () {
                 // $example.page("next").draw(false);
                 // console.log($example.page("next").draw(false));
                 // console.log($example.page.info());
                 // alert("表格当前页:"+$example.page());
                 // $example.page.len(-1).draw();
-                console.log($example.settings())
+                // console.log($example.settings());
+                // alert("1");
+                // console.log($example.cell(this).render('filter'));
+                //
+                // console.log($example.cells(".sorting_2"));
+                
+                console.log($example.cells(":contains('Edinburgh')").nodes());
             });
+
+            // $("#example tbody").on("click", "td", function () {
+            //     // alert($example.cell(this).data());
+            //     // var cell=$example.cell(this);
+            //     // cell.data(cell.data()+1).draw();
+			//
+            //     // alert($example.cell(this).cache('search'));
+            //     //
+            //     // alert($example.cell(this).index().row);
+            //     //
+            //     // console.log($example.cell(this).index().column);
+            //     //
+            //     // console.log($example.cell(this).index().columnVisible)
+			//
+            //     //使得原来的缓存数据失效,并且按照我们自己的逻辑赋予新的值,并且重新绘制表格
+            //     console.log(this.innerHTML);
+            //     this.innerHTML = parseInt(this.innerHTML) + 1;
+            //     $example.cell().invalidate().draw();
+			//
+            //     //获取某个单元格的html格式节点信息
+            //     console.log($example.cell("#tt").node());   //获取id为tt的单元格节点信息
+			//
+            //     console.log($example.cell(".sorting_1").node());
+			//
+            // })
         })
 	</script>
 
