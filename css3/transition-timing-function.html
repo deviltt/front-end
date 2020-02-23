@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+		h1 {
+			font-size: 16px;
+		}
+		
+		.test {
+			list-style: none;
+			padding: 0;
+			width: 100%;
+		}
+		
+		.test li {
+			text-align: center;
+			line-height: 100px;
+			margin: 1px 5px;
+			padding: 10px;
+			width: 220px;
+			height: 100px;
+			border: 1px solid #ddd;
+			position: relative;
+			left: 8px;
+			color: #000;
+			background-color: #eee;
+			-webkit-transition: all 2s;
+			-moz-transition: all 2s;
+			-ms-transition: all 2s;
+			-o-transition: all 2s;
+			transition: all 2s;
+		}
+		
+		.test li:nth-child(1){
+			transition-timing-function: linear;
+		}
+		.test li:nth-child(2){
+			transition-timing-function: ease;
+		}
+		.test li:nth-child(3){
+			transition-timing-function: ease-in;
+		}
+		.test li:nth-child(4){
+			transition-timing-function: ease-out;
+		}
+		.test li:nth-child(5){
+			transition-timing-function: ease-in-out;
+		}
+		.test li:hover{
+			left: 200px;
+		}
+	</style>
+</head>
+<body>
+<h1>请将鼠标移动到下面的矩形上：</h1>
+<ul class="test">
+	<li>linear:线性过渡</li>
+	<li>ease:平滑过渡</li>
+	<li>ease-in:由慢到快</li>
+	<li>ease-out:由快到慢</li>
+	<li>ease-in-out:由慢到快再到慢</li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+		h1{
+			font-size: 16px;
+		}
+		.test{
+			width: 100%;    /*和屏幕宽度一致*/
+			margin: 0;
+			padding:0;
+			list-style: none;
+		}
+		.test li{
+			margin: 0 5px;
+			border: 1px solid #ddd;
+			float: left;
+			width: 100px;
+			height: 100px;
+			text-align: center;
+			line-height: 100px;
+			background: #eee;
+			-webkit-transition: background-color,width 1s ease 2s;
+			-moz-transition: background-color,width 1s ease 2s;
+			-ms-transition: background-color,width 1s ease 2s;
+			-o-transition: background-color,width 1s ease 2s;
+			transition: background-color,width 1s ease 2s;
+		}
+		.test li:nth-child(1):hover{
+			background-color: #bbb;
+			width: 200px;
+		}
+		.test li:nth-child(2):hover{
+			background-color: #999;
+		}
+		.test li:nth-child(3):hover{
+			background-color: #630;
+		}
+		.test li:nth-child(4):hover{
+			background-color: #090;
+		}
+		.test li:nth-child(5):hover{
+			background-color: #f00;
+		}
+	</style>
+</head>
+<body>
+<h1>请将鼠标移动到下面的矩形上：</h1>
+<ul class="test">
+	<li>背景色过渡</li>
+	<li>背景色过渡</li>
+	<li>背景色过渡</li>
+	<li>背景色过渡</li>
+	<li>背景色过渡</li>
+</ul>
+</body>
+</html>
