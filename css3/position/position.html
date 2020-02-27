@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            margin: 0;
+            padding:0;
+        }
+        #position{
+            position: absolute; /*元素脱离文档流*/
+            width: 150px;
+            height: 40px;
+            padding: 0 10px;
+            background: #eee;
+            line-height: 40px;  /*line-height和height高度一致，里面的文字就会居中*/
+            margin: -20px 0 0 -75px;
+            top:50%;
+            left: 50%;
+        }
+    </style>
+</head>
+<body>
+<div id="position">水平垂直居中的对象</div>
+</body>
+</html>

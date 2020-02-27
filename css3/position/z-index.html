@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        /*群组选择器*/
+        .z1, .z2, .z3{
+            height: 100px;
+            width: 200px;
+            padding:5px 10px;
+            text-align: right;
+            position: absolute;
+            color: #fff9d7;
+        }
+        .z1{
+            background: #000;
+            z-index:1;
+        }
+        .z2{
+            background: #c00;
+            top: 30px;
+            left: 30px;
+            z-index:2;
+        }
+        .z3{
+            background: green;
+            top: 60px;
+            left: 60px;
+            z-index:3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="z1">z-index1</div>
+<div class="z2">z-index2</div>
+<div class="z3">z-index3</div>
+
+</body>
+</html>
