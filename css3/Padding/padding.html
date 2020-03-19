@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>padding</title>
+	<style>
+		#content{
+			background: red;
+		}
+		.divC{
+			background: greenyellow;
+			float: left;
+			border: 2px solid black;
+		}
+		.div1 {
+			
+			padding: 20px;
+			
+			/*width: 200px;*/
+		}
+		.div2{
+			padding: 20px 40px 20px;    /*上 左右 下*/
+		}
+		
+		.div3{
+			padding:20px 40px           /*上下 左右*/
+		}
+		
+		.divB{
+			clear: both;                /*清除浮动*/
+		}
+	</style>
+</head>
+<body>
+<div id="content">
+	<div class="divC div1">注意内容距离4条边的距离</div>
+	<div class="divC div2">注意内容距离4条边的距离</div>
+	<div class="divC div3">注意内容距离4条边的距离</div>
+	<div class="divB"></div>
+</div>
+
+</body>
+</html>

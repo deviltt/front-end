@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>汉克狗</title>
+	<style>
+		:root{
+			--hl:#1b2f90;
+			--bg:#f9f9f6;
+		}
+		body{
+			background: #ffc400;
+		}
+		.dog{
+			width: 300px;
+			height: 400px;
+			position: relative; /*相对定位 后面的元素会根据dog进行定位*/
+		}
+		.center{
+			position: absolute;
+			left: 50%;  /*相对于父元素居中显示*/
+			-webkit-transform: translate(-50%, 0);
+			-moz-transform: translate(-50%, 0);
+			-ms-transform: translate(-50%, 0);
+			-o-transform: translate(-50%, 0);
+			transform: translate(-50%, 0);
+			z-index: 1;
+		}
+		.forehead{
+			width: 102px;
+			height: 48px;
+			background: var(--bg);
+			border-radius: 51px/40px 40px 8px 8px;
+		}
+		.face{
+			width: 110px;
+			height: 68px;
+			background: var(--bg);
+			border-radius: 50%;
+			top: 20px;
+		}
+		.chin{
+			width: 104px;
+			height: 36px;
+			background: var(--bg);
+			border-radius: 52px /0 0 32px 32px;
+			top: 60px;
+		}
+		.ear{
+			width: 16px;
+			height: 70px;
+			background: var(--hl);
+			border-radius: 50%;
+			position: absolute;
+			left: 50%;
+			top: 34px;
+			transform-origin: 50% 0;
+			transform: translate(-42px, 0) rotate(10deg);
+			z-index: 0;
+		}
+		/*当元素同时拥有ear和right class属性的时候*/
+		.ear.right{
+			-webkit-transform: scale(-1, 1) translate(-26px, 0) rotate(10deg);
+			-moz-transform: scale(-1, 1) translate(-26px, 0) rotate(10deg);
+			-ms-transform: scale(-1, 1) translate(-26px, 0) rotate(10deg);
+			-o-transform: scale(-1, 1) translate(-26px, 0) rotate(10deg);
+			transform: scale(-1, 1) translate(-26px, 0) rotate(10deg);
+		}
+	</style>
+</head>
+<body>
+<div class="dog center">
+	<div class="forehead center"></div>
+	<div class="face center"></div>
+	<div class="chin center"></div>
+	<div class="ear"></div>
+	<div class="ear right"></div>
+</div>
+
+</body>
+</html>
